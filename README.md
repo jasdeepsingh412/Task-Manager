@@ -5,6 +5,12 @@ A production-ready Task Management / Productivity application built with Flutter
 This project demonstrates clean architecture, Firebase integration, Riverpod state management, modern UI design (Material 3), and real-world mobile development practices.
 
 ---
+## 📦 Download
+
+Download latest APK from:
+https://github.com/YOUR_USERNAME/YOUR_REPO/releases
+
+---
 
 ## 🚀 Features
 
