@@ -8,7 +8,7 @@ This project demonstrates clean architecture, Firebase integration, Riverpod sta
 ## 📦 Download
 
 Download latest APK from:
-https://github.com/YOUR_USERNAME/YOUR_REPO/releases
+https://github.com/jasdeepsingh412/Task-Manager/releases/tag/v1.0.0
 
 ---
 

@@ -55,15 +55,6 @@ class HomeScreen extends ConsumerWidget {
       ),
       body: taskState.when(
         data: (tasks) {
-          if (tasks.isEmpty) {
-            return Center(
-              child: Text(
-                'No tasks yet! Add one.',
-                style: theme.textTheme.bodyLarge,
-              ),
-            );
-          }
-
           return Column(
             children: [
               Padding(
@@ -83,7 +74,14 @@ class HomeScreen extends ConsumerWidget {
               ),
 
               Expanded(
-                child: RefreshIndicator(
+                child: tasks.isEmpty
+                    ? Center(
+                  child: Text(
+                    "No matching tasks found",
+                    style: theme.textTheme.bodyLarge,
+                  ),
+                )
+                    : RefreshIndicator(
                   onRefresh: () =>
                       ref.read(taskProvider.notifier).fetchTasks(),
                   child: ListView.builder(
