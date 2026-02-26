@@ -1,0 +1,87 @@
+# ==============================
+# Flutter / Dart
+# ==============================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# ==============================
+# Firebase
+# ==============================
+# If using separate Firebase configs per dev
+firebase-debug.log
+firebase-debug.*.log
+
+# Optional (ONLY if regeneratable)
+# ios/Runner/GoogleService-Info.plist
+# android/app/google-services.json
+
+# ==============================
+# Hive / Local Storage
+# ==============================
+*.hive
+*.lock
+
+# ==============================
+# Android
+# ==============================
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/key.properties
+/android/app/*.keystore
+/android/app/*.jks
+local.properties
+.gradle/
+captures/
+
+# ==============================
+# iOS
+# ==============================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner.xcworkspace/
+DerivedData/
+
+# ==============================
+# macOS / Windows junk
+# ==============================
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+*.iml
+*.ipr
+*.iws
+.history
+.atom/
+.vscode/
+
+# ==============================
+# Misc
+# ==============================
+*.class
+*.pyc
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ==============================
+# Environment files
+# ==============================
+.env
+.env.*
